@@ -2,6 +2,15 @@
     box-sizing: border-box;
     margin: 0;
 }
+marquee.marq-one{
+    /* display: flex; */
+    background-color: brown;
+    padding: 20px;
+}
+marquee.marq-one h4 {
+    font-size: 32px;
+    color: #fff;
+}
 .container{
     background-color: #f6f6f8;
     /* background-color: #56cfe1; */
@@ -215,6 +224,7 @@ svg.t4s-icon-pinterest {
 }
 .last-img{
 width: 100%;
+cursor: pointer;
 }
 /* .last-img img{
     width: 100%;
@@ -280,15 +290,19 @@ width: 100%;
         outline: none;
         }
     .sub-btn button{
-        height: 44px;
+        font-family: "Poppins", sans-serif;
         height: 37px;
     border-radius: 48px;
     background-color: black;
     color: white;
     font-size: 14px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     width: 111px;
+    border: none;
+    }
+    .sub-btn button:hover{
+        background-color: #56cfe1;
     }
 
     @media only screen and (max-width:1024px) {
